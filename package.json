@@ -1,0 +1,23 @@
+{
+  "name": "uppyusingnode",
+  "version": "1.0.0",
+  "description": "implementing upload widget using Uppy and Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karthik",
+  "license": "ISC",
+  "dependencies": {
+    "@uppy/companion": "^4.0.3",
+    "@uppy/core": "^3.0.2",
+    "@uppy/dashboard": "^3.1.0",
+    "@uppy/webcam": "^3.2.0",
+    "@uppy/xhr-upload": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "multer": "^1.4.5-lts.1",
+    "parcel": "^2.7.0",
+    "path": "^0.12.7"
+  }
+}
