@@ -8,7 +8,7 @@ const multer = require('multer');
 const cors = require('cors');
 app.use(bodyParser.json())
 const path = require('path');
-const uppy = require('uppy-server');
+
 
 const storage = multer.diskStorage({
     destination: 'uploads/',
